@@ -1,1 +1,52 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Gaming Webpage</title> <link rel="stylesheet" href="styles.css"> </head> <body> <header> <div class="logo">Gaming Hub</div> <nav> <ul> <li><a href="#home">Home</a></li> <li><a href="#news">News</a></li> <li><a href="#reviews">Reviews</a></li> <li><a href="#gallery">Gallery</a></li> <li><a href="#contact">Contact</a></li> </ul> </nav> </header> <main> <section id="news"> <h2>Latest News</h2> <article> <h3>Game Release</h3> <p>Details about the latest game release...</p> </article> <article> <h3>Update Patch</h3> <p>Information on the latest update patch...</p> </article> </section> <section id="reviews"> <h2>Game Reviews</h2> <article> <h3>Game Title</h3> <p>Review of the game...</p> </article> <article> <h3>Another Game Title</h3> <p>Review of another game...</p> </article> </section> <section id="gallery"> <h2>Gallery</h2> <div class="gallery-item"> <img src="image1.jpg" alt="Game Image 1"> </div> <div class="gallery-item"> <img src="image2.jpg" alt="Game Image 2"> </div> </section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PRODUCT</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="slider">
+        <div class="slide">
+            <img src="image1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="image2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="image3.jpg" alt="Slide 3">
+        </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    <section class="content">
+        <div class="column">
+            <img src="content1.jpg" alt="Content 1">
+            <p>Content description 1</p>
+        </div>
+        <div class="column">
+            <img src="content2.jpg" alt="Content 2">
+            <p>Content description 2</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Product Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
